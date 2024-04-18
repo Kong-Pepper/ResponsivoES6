@@ -1,0 +1,39 @@
+#myNavbar{
+  height: 100%;
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+    }
+ul{
+    list-style-type: none;
+}
+.navbar a{
+      transition: 0.3s;
+    }
+
+#myNavbar .closebtn{
+position: absolute;
+  top: 15px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: red;
+}
+  
+#myButton{
+  float: left;
+  left: 20px;
+  margin-left: 10px;
+    }
+
+#myContent{
+  float: left;
+  margin-left: 10px;
+  transition: margin-left .5s;
+  padding: 20px;
+    }
